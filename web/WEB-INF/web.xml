@@ -13,14 +13,19 @@
     </listener>
     <display-name>SpringHello</display-name>
 
+    <!--捕获多个servlet的方法-->
     <servlet>
-        <servlet-name>baobaotao</servlet-name>
+        <servlet-name>my-servlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/*-servlet.xml</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>baobaotao</servlet-name>
+        <servlet-name>my-servlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
