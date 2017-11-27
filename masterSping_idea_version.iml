@@ -152,5 +152,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.25" level="project" />
   </component>
 </module>
