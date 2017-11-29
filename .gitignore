@@ -1,1 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/inspectionProfiles/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/classes/com/baobaotao/test/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/classes/com/baobaotao/web1/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/classes/com/bjccdsrlcr/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/classes/main/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/jsp/
+out/artifacts/masterSping_idea_version_war_exploded/WEB-INF/views_test/
+out/artifacts/masterSping_idea_version_war_exploded/jsp/
+src/test/
+target/generated-sources/
